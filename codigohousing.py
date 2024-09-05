@@ -42,6 +42,16 @@ pipeline = joblib.load('pipeline.sav')
 
 def main():
     st.title("California Housing Prices")
+    st.markdown(
+    """
+    <style>
+    .css-1v0mbdj {
+        background-color: #d1e0e0;  /* Cambia el color de fondo del encabezado */
+    }
+    </style>
+    """,
+    unsafe_allow_html=True
+    )
     longitude = st.number_input("Longitude",min_value=-124.35,max_value=-114.31,value="min")
     latitude = st.number_input("Latitude",min_value=32.54,max_value=41.95,value="min")
     house_med_age = st.number_input("Housing Median Age",min_value=1.0,max_value=52.0,value="min")
