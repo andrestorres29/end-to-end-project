@@ -42,7 +42,7 @@ pipeline = joblib.load('pipeline.sav')
 
 def main():
     st.title("Precio de las casas en el estado de California")
-    col1, col2 = st.columns(3)
+    col1, col2, col3 = st.columns(3)
     with col1:
         image = Image.open('logo.png')  # Cambia 'ruta/a/tu/imagen.png' por la ruta de tu imagen
         st.image(image, use_column_width=True)
