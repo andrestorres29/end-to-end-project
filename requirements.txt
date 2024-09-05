@@ -1,5 +1,5 @@
 altair==5.4.1
-attrs[2024-09-05 15:49:24.548186] ==24.2.0
+attrs ==24.2.0
 blinker==1.8.2
 cachetools==5.5.0
 certifi==2024.8.30
@@ -17,7 +17,7 @@ mdurl==0.1.2
 narwhals==1.6.2
 numpy==2.1.1
 packaging==24.1
-pandas==2.2.2[2024-09-05 15:49:24.548468] 
+pandas==2.2.2 
 pillow==10.4.0
 protobuf==5.28.0
 pyarrow==17.0.0
@@ -31,7 +31,7 @@ rich==13.8.0
 rpds-py==0.20.0
 six==1.16.0
 smmap==5.0.1
-streamlit[2024-09-05 15:49:24.548668] ==1.38.0
+streamlit==1.38.0
 tenacity==8.5.0
 toml==0.10.2
  tornado==6.4.1
