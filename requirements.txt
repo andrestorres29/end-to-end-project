@@ -25,7 +25,6 @@ pydeck==0.9.1
 pygments==2.18.0
 python-dateutil==2.9.0.post0
 pytz==2024.1
-reerencing==0.35.1
 requests==2.32.3
 rich==13.8.0
 rpds-py==0.20.0
