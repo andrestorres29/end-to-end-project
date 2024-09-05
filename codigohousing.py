@@ -42,14 +42,20 @@ pipeline = joblib.load('pipeline.sav')
 
 def main():
     st.title("Precio de las casas en el estado de California")
-    col1, col2 = st.columns(2)
-    with col1:
+    col1, col2 = st.columns(3)
+    with col1:image = 
+        Image.open('logo.png')  # Cambia 'ruta/a/tu/imagen.png' por la ruta de tu imagen
+        st.image(image, use_column_width=True)
+        st.write('### Irvin A. Torres')
+        st.write('### Matricula: 315463')
+        st.write('### Machine Learning MIC')
+    with col2:
         longitude = st.number_input("Longitude",min_value=-124.35,max_value=-114.31,value="min")
         latitude = st.number_input("Latitude",min_value=32.54,max_value=41.95,value="min")
         house_med_age = st.number_input("Housing Median Age",min_value=1.0,max_value=52.0,value="min")
         total_rooms = st.number_input("Total Rooms",min_value=2.0,max_value=39320.0,value="min")
         total_bedrooms = st.number_input("Total Bedrooms",min_value=1.0,max_value=6445.0,value="min")
-    with col2:
+    with col3:
         population = st.number_input("Population",min_value=3.0,max_value=35682.0,value="min")
         households = st.number_input("Households",min_value=1.0,max_value=6082.0,value="min")
         median_income = st.number_input("Median Income",min_value=0.499,max_value=15.0001,value="min")
