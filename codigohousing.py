@@ -18,6 +18,7 @@ from sklearn.preprocessing import StandardScaler
 from sklearn.base import BaseEstimator, TransformerMixin
 from sklearn.preprocessing import OneHotEncoder
 from sklearn.impute import SimpleImputer
+from PIL import Image
 
 rooms_ix, bedrooms_ix, population_ix, households_ix = 3, 4, 5, 6
 class CombinedAttributesAdder(BaseEstimator, TransformerMixin):
