@@ -46,7 +46,7 @@ def main():
     """
     <style>
     .css-1v0mbdj {
-        background-color: #d1e0e0;  /* Cambia el color de fondo del encabezado */
+        background-color: #009dcd;  /* Cambia el color de fondo del encabezado */
     }
     </style>
     """,
